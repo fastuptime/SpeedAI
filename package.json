@@ -1,0 +1,16 @@
+{
+  "name": "speed-ai",
+  "version": "0.0.3",
+  "description": "AI servisleri test uygulaması",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.17.1",
+    "@google/generative-ai": "^0.1.2",
+    "@mistralai/mistralai": "^0.0.7",
+    "openai": "^4.20.0"
+  }
+}
